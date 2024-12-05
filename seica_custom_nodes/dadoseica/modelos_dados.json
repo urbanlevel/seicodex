@@ -1,0 +1,20 @@
+{
+    "v1-5-pruned-emaonly": {
+        "steps": 20,
+        "cfg": 7.0,
+        "sampler_name": "euler",
+        "scheduler": "normal"
+    },
+    "sd_xl_base_1.0": {
+        "steps": 30,
+        "cfg": 8.0,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras"
+    },
+    "abyssalantennae_v01.safetensors": {
+        "steps": 35,
+        "cfg": 4.5,
+        "sampler_name": "dpmpp_3m_sde_gpu",
+        "scheduler": "exponential"
+    }
+}
